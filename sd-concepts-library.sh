@@ -4,7 +4,7 @@ set -o nounset
 set -o pipefail
 [[ "${TRACE-0}" == "1" ]] && set -o xtrace
 
-HUGGINGFACE_TOKEN=""
+HUGGINGFACE_TOKEN="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"
 
 mkdir -p embeddings
 
